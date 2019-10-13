@@ -46,3 +46,8 @@ docker push ${DOCKER_USER}/parse-server
     + Google compute engine 
     + Create Kubernetes cluster 
         + Cluster is ready -> get credentials 
+        + Deploy 
+        + Config load balancer 
+        + K8 UI 
+            + IAM 
++ Jenkins 
