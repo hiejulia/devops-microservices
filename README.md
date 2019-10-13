@@ -37,3 +37,8 @@ docker push ${DOCKER_USER}/parse-server
         + CI server pools repo, run test 
         + CI server sends notification - feedback of the integration test 
         (script = CI server )
+    + CD 
+        + Branches 
+        + Unit test 
+        + Automatic test 
+        + Code promotion 
