@@ -23,3 +23,10 @@ https://github.com/parse-community/parse-server
 
 
 docker push ${DOCKER_USER}/parse-server
+
+
+## AWS 
+
+
+
+## Google cloud platform 
