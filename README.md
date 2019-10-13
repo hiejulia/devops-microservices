@@ -30,3 +30,10 @@ docker push ${DOCKER_USER}/parse-server
 
 
 ## Google cloud platform 
++ gcloud init 
++ CD/CI 
+    + CI 
+        + Code commit on Github 
+        + CI server pools repo, run test 
+        + CI server sends notification - feedback of the integration test 
+        (script = CI server )
