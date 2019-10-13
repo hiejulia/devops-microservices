@@ -42,3 +42,7 @@ docker push ${DOCKER_USER}/parse-server
         + Unit test 
         + Automatic test 
         + Code promotion 
++ Docker - Kubernetes 
+    + Google compute engine 
+    + Create Kubernetes cluster 
+        + Cluster is ready -> get credentials 
