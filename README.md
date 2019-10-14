@@ -51,3 +51,20 @@ docker push ${DOCKER_USER}/parse-server
         + K8 UI 
             + IAM 
 + Jenkins 
+    + Google Kubernetes engine 
+    + Jenkins in the cluster 
+    + Google Cloud Container Registry and Google Cloud Storage
+    + Get credentials : gcloud container clusters get-credentials --zone us-east1-b jenkins-cd
+    + Jenkins architecture : Master - Slave -> scale the job 
+        + 2 nodes 
+        + Config Jenkins : 
+        + Create jenkins service 
+            + Jenkins UI 
+            + Jenkins discovery 
+
+
+
++ Google App Engine 
+    + Google source repository 
+    + Start up / reboot script 
+
