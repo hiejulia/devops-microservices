@@ -84,4 +84,12 @@ docker push ${DOCKER_USER}/parse-server
 + Build Docker image 
 + Deploy docker image to K8 
     + yml file - and deployment file 
-    
+
+
+
+
+## Microservices testing 
++ Arquillian 
++ Selenium : Java UI test 
++ Cucumber : automation integration test 
++ Robot framework 
