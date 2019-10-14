@@ -76,3 +76,12 @@ docker push ${DOCKER_USER}/parse-server
 + Database : 
     + 
 
+
+
+
+
+## Microservices Devops 
++ Build Docker image 
++ Deploy docker image to K8 
+    + yml file - and deployment file 
+    
