@@ -73,7 +73,9 @@ docker push ${DOCKER_USER}/parse-server
     + Host on Google Cloud function 
     + Deploy the application 
         + Create and configure GCE instance 
-    
+    + App Engine resource and integration 
+        + Data storage, Memcache, Cloud storage, Mail, Scheduled task, Task queue.
+        + Push - Pull queues 
 
 + Database : 
     + 
