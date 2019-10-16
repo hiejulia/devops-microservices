@@ -1,0 +1,21 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+default_expiration: "30s"
+
+handlers:
+- url: /admin/.*
+  script: main.app
+  login: admin
+
+- url: /www/(.*)
+  static_files: www/\1
+  upload: www/(.*)
+
+- url: /api/.*
+  script: main.app
+
+- url: /
+  static_files: index.html
+  upload: index.html

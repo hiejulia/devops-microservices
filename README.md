@@ -71,10 +71,16 @@ docker push ${DOCKER_USER}/parse-server
     + Host on GAE 
     + Host on Kubernetes Engine 
     + Host on Google Cloud function 
+    + Deploy the application 
+        + Create and configure GCE instance 
     
 
 + Database : 
     + 
+
+
+
+
 
 
 
