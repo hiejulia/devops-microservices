@@ -1,5 +1,8 @@
 # devops-microservices
 DevOps in distributed system 
+- Deploy OpenShift with Minishift
+    - Deploy a sample Multi-services application on OpenShift
+    - Builds, Build Triggers, Image streams, Deployments
 
 
 ## Project description 
@@ -14,13 +17,61 @@ DevOps in distributed system
         + Create a kubernetes service 
 
 
-## Ref : 
-https://github.com/parse-community/parse-server
+
+## OpenShift
+
+- oc login 
+- Build & deployment
+    - image stream 
+    - OS registry, Docker hub 
+    - build config 
+    - docker strategy/ source strategy 
+    - build trigger
+    - automate build
+    - roling update 
+    - Blue/green strategy
+    - A/B strategy deployment 80 % 20 %
+    - `oc rollout latest ..` 
+    - 
+
+- network 
+    - SDN 
+        - plugin 
+        - overlay network 
+    
+    - openvswitch
+    - DNS server 
+
+- service & route
+- LB 
+    - define security 
+    - split traffic
+
+- scaling : replicas
+
+- storage 
+     - persistent volumne
+
+- template & catalog 
+    - oc create -f template-config.yml
 
 
 
+Example architecture deployment 
+- service (source strategy deployment)
+    - deploy redis service 
+        - redis template 
+    - add python app deployment
+        - add env for password of redis
+    - PostgreSQL service
+    - add node.js app deployment
 
-docker push ${DOCKER_USER}/parse-server
+
+- docker strategy deloyment worker
+    - 
+
+
+
 
 
 ## AWS 
@@ -111,5 +162,9 @@ docker push ${DOCKER_USER}/parse-server
 
 ## Resource 
 - https://searchstorage.techtarget.com/definition/InfiniBand
+- https://www.osboxes.org/
 
 
+## Ref : 
+https://github.com/parse-community/parse-server
+docker push ${DOCKER_USER}/parse-server
