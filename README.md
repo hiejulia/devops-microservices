@@ -1,7 +1,5 @@
 # devops-microservices
-Microservices is hard... and devops within microservices is harder...
-
-
+DevOps in distributed system 
 
 
 ## Project description 
@@ -84,10 +82,6 @@ docker push ${DOCKER_USER}/parse-server
 
 
 
-
-
-
-
 ## Microservices Devops 
 + Build Docker image 
 + Deploy docker image to K8 
@@ -101,3 +95,21 @@ docker push ${DOCKER_USER}/parse-server
 + Selenium : Java UI test 
 + Cucumber : automation integration test 
 + Robot framework 
+
+
+
+## Tech stack 
+- Java EE 
+- OpenShift 
+- Ansible 
+- Jenkins
+- Puppet 
+
+- IaC 
+
+
+
+## Resource 
+- https://searchstorage.techtarget.com/definition/InfiniBand
+
+
